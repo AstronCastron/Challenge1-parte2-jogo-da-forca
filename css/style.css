@@ -1,0 +1,53 @@
+.titulo {
+	color:  red;
+	text-align: center;
+	font-family: "arial black", sans-serif;
+  	font-size: 30px;
+}
+.contador-invalidas {
+	color: green;
+	font-family: impact; sans-serif;
+	text-align: center;
+
+}
+
+body {
+	align-content: center;
+	background: rgb(255,255,255);
+	background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(230,200,49,1) 35%, rgba(255,106,0,1) 100%);
+  	font-family: "arial black", sans-serif;
+  	font-size: 15px;
+}
+
+p {
+	color: blue;
+	font-family: "arial black", sans-serif;
+  	font-size: 15px;
+}
+
+button {
+	margin: 5px;
+	
+}
+
+footer {
+	font-family: "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-image: linear-gradient(to right, #fe921f , darkred, #fe921f);
+  color: white;
+  text-align: center;
+}
+
+.contador-de-erros {
+	text-align: center;
+}
+
+.btn-btn-info {
+	color: blue;
+	font-family: "arial black", sans-serif;
+  	font-size: 15px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Jogo da Forca</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class = "miolo">
+<div class="container">
+  <h1 class="titulo">Jogo da forca</h1>
+  <div class="contador-de-erros">Tentativas: <span id='erros'>0</span> de <span id='limiteErros'></span></div>
+  <p class="contador-invalidas" id="invalidas"></p>
+  <div class="titulo">
+    <img id='imgForca' src="./images/0.jpg" alt="">
+    <p id="adivinhe">Tente Adivinhar a Palavra:</p>
+    <p id="wordSpotlight">Aqui aparecerá a palavra a ser adivinhada</p>
+    <div id="teclado"></div>
+    <button class="btn-btn-info" onClick="reset()">Iniciar Jogo</button>
+  </div> 
+</div>
+
+<script src='./js/jogo-da-forca.js'></script>
+</body>
+<footer>
+  Challenge Alura parte 2 - Jogo da forca - por Cristian Castro
+</footer>
+</html>
